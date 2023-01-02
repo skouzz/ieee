@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="menu.css">
+  <title>IEEE ESSTHS SB</title>
+</head>
+<body>
+ <nav>
+ <div class="logo"><a href="index.php"><img src="img/logowhite.png" alt="IEEE ESSTHS SB" width="200px"/></a></div>
+   <span class="menubtn" onclick="openNav()">&#9776;</span>
+ 
+   <div class="navLinks">
+     <ul>
+       <li><a href="index.php">Home</a></li>
+       <li><a href="#">About</a></li>
+
+       <li>
+        <a href="#">Chapters</a>
+        <ul class="dropdown">
+        <li><a href="#">Computer Society</a></li>
+        <li><a href="#">Robotics and Automation Society</a></li>
+        <li><a href="#">Industrial Application Society</a></li>
+        <li><a href="#">Power and Energy Society</a></li></ul></li>
+        <li>
+        <a href="#">Affinity Groups</a>
+        <ul class="dropdown1">
+        <li><a href="#">Women In Engineering</a></li>
+        <li><a href="#">Sight</a></li>
+        </ul></li>
+        <li><a href="#">Contact</a></li>
+
+
+       <button type="button"><a href="login.php">Login</a></button>
+     </ul>
+   </div>
+   
+</div>
+   
+ </nav>
+ 
+   
+   <div class="row">
+     <div class="column1">
+       <h1>IEEE ESSTHS STUDENT BRANCH</h1>
+       <p>Welcome to our family!</p>
+       <button type="button"><a href="signup.php">Signup</a></button></div>
+     <div class="column2">
+       <img src=""  width="500px">
+     </div>
+   </div>
+   
+ <script>
+   function openNav() {
+     document.getElementById("sidenav").style.width = "50%";
+   }
+   function closeNav() {
+     document.getElementById("sidenav").style.width = "0%";
+   }
+ </script>
+ 
+</body>
+</html>

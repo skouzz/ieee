@@ -1,0 +1,92 @@
+* {
+    Margin: 0;
+    Padding: 0;
+    Box-Sizing: Border-Box;
+}
+
+Body {
+    Background-Color: #E1e7ed;
+    Text-Align: Center;
+}
+
+H3 {
+    Font-Size: 18px;
+    Font-Weight: 500;
+    Color: #33363b;
+}
+
+P{
+    Font-Size: 14px;
+    Color: #868d9b;
+}
+
+.Card {
+    Width: 360px;
+    Height: Auto;
+    Background-Color: #Ffffff;
+    Margin: 0 Auto;
+    Margin-Top: 80px;
+    Box-Shadow: 0px 1px 3px 0px Rgba(0, 0, 0, 0.15);
+}
+
+.Card_profile_img {
+    Width: 120px;
+    Height: 120px;
+    Background-Color: #868d9b;
+    Background: Url("img/oussama.jpg");
+    Background-Repeat: No-Repeat;
+    Background-Size: Cover;
+    Background-Position: Center;
+    Border: 2px Solid #Ffffff;
+    Border-Radius: 120px;
+    Margin: 0 Auto;
+    Margin-Top: -60px;
+
+}
+
+.Card_background_img {
+    Height: 180px;
+    Background-Color: #E1e7ed;
+    Background: Url("img/logomember.png");
+    Background-Size: Cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+
+}
+
+.User_details P {
+    Margin-Bottom: 20px;
+    Margin-Top: 5px;
+}
+
+.User_details H3 {
+    Margin-Top: 10px;
+}
+
+.Card_count {
+    Padding: 30px;
+    Border-Top: 1px Solid #Dde1e7;
+}
+
+.Count {
+    Display: Flex;
+    Align-Items: Center;
+    Justify-Content: Space-Between;
+    Margin-Bottom: 28px;
+}
+
+.Count P {
+    Margin-Top: 5px;
+}
+
+ button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: blue;
+    font-size: 16px;
+    border-style: none;
+    font-weight: 700;
+  }
